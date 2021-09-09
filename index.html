@@ -24,7 +24,7 @@
             <ul v-if="toDos.length > 0 ">
                 <li v-for="(todo, index) in toDos ">
                     {{todo}}
-                    <i class="fas fa-times" @click="removeToDo"></i>
+                    <i class="fas fa-times" @click="removeToDo(index)"></i>
                 </li>
             </ul>
             <h2 v-else>Non ci sono to do</h2>

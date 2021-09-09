@@ -8,7 +8,7 @@ const app = new Vue (
             toDos: [
                 'Fare i compiti',
                 'Fare la spesa',
-                'Fare i compiti',
+                'Pulire casa',
             ],
         },
 
